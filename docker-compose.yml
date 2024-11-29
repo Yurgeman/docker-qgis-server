@@ -10,4 +10,4 @@ services:
       - ./config/entrypoint.sh:/root/entrypoint.sh
       - ./config/qgis.demo.conf:/etc/apache2/sites-available/qgis.demo.conf
     ports:
-      - 8080:8080
+      - 8001:8080
